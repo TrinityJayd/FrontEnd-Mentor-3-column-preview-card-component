@@ -1,0 +1,141 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+.box-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5%;
+}
+
+.box-1 div {
+  color: hsl(31, 77%, 52%);
+}
+
+.box-2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 5%;
+}
+
+.box-2 div {
+  color: hsl(184, 100%, 22%);
+}
+
+.box-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5%;
+}
+
+.box-3 div {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border-style: none;
+  border-radius: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 3.5rem;
+  text-align: center;
+  height: 2.5rem;
+  width: 9rem;
+}
+
+.btn:hover {
+  background-color: inherit;
+  border: 3px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.box-1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.box-2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.box-3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+.container {
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  height: 30rem;
+  margin: 10% auto;
+  width: 53rem;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+p {
+  width: 13.1rem;
+  line-height: 2;
+}
+
+@media screen and (max-width: 375px) {
+
+  .attribution{
+  
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 30px auto;
+    height: 80rem;
+    width: 18rem;
+  }
+
+  .container div{
+   padding-left: 40px;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .box-1 {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .box-3{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+
+  
+}
