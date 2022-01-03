@@ -24,8 +24,8 @@ Users should be able to:
 
 ![My Solution](Solution.PNG)
 
-- Solution URL: https://www.frontendmentor.io/solutions/order-summary-solution-yaZL6TdXq
-- Live Site URL: https://trinityjayd.github.io/Order-Summary-FrontEnd-Mentor/
+- Solution URL: https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-SEPHqkG6A
+- Live Site URL: https://trinityjayd.github.io/FrontEnd-Mentor-3-column-preview-card-component/
 
 ### Built with
 
